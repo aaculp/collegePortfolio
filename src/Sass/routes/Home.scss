@@ -1,0 +1,18 @@
+.homeContainer {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-size: 5rem;
+}
+
+.projectsContainer {
+    position: absolute;
+    top: 25%;
+    height: 100vh;
+    animation: enter 2s linear;
+}
+
+.homeImage {
+    width: 100vw;
+}

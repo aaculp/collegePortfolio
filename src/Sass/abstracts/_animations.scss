@@ -1,0 +1,26 @@
+// Logo spin in the Nav
+@keyframes logoSpin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  // Home container enter with projects
+  @keyframes enter {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  //project title enter
+  @keyframes textEnter {
+    from {top: -5rem; opacity: 0;}
+    to {top: 10rem; opacity: 1}
+  }
+
+  @keyframes pictureEnter {
+    from {margin-top: 35rem; opacity: 0;}
+    to {margin-top: 15rem; opacity: 1}
+  }

@@ -1,0 +1,59 @@
+.Rick {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.RickContainer {
+    position: absolute;
+    padding-left: 4rem;
+    animation: enter 3s linear;
+
+    .RickHeader {
+        position: absolute;
+        top: 10rem;
+        font-size: 2rem;
+        font-family: 'Kaushan Script', cursive;
+        animation: textEnter 2s;
+    }
+
+    .rickHeaderPic {
+        margin-top: 15rem;
+        height: 50vh;
+        width: 85vw;
+        animation: pictureEnter 1.5s;
+    }
+
+    .wireframesImg {
+        margin: 10rem 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .wireframesText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        width: 300px;
+        line-height: 35px;
+    }
+
+    .videoRick {
+        width: 90%;
+    }
+}
+
+
+.footer {
+    height: 10vh;
+    width: 100vw;
+    padding: 2.5rem 0;
+    font-size: 5rem;
+    font-family: 'Kaushan Script', cursive;
+}

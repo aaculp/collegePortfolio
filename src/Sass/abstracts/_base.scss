@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    // thid defines what 1rem is
+    font-size: 100%;
+
+    @include pageStyles(Home);
+    @include pageStyles(RickAndMorty);
+    @include pageStyles(Remedi);
+    
+    @include respond(phone) {
+        font-size: 30%;
+    }
+  
+    @include respond(tab-land) {
+        font-size: 70%;
+    }
+  
+    @include respond(tab-port) {
+        font-size: 60%;
+    }
+  
+    @include respond(big-desktop) {
+        font-size: 100%;
+    }
+  }
+    
+  //CSSTransition Group
+  .page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .fade-appear, .fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .fade-appear-active, .fade-enter.fade-enter-active {
+    opacity: 1;
+    transform: rotateY(0deg);
+    transition: all 625ms linear 625ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+    z-index: 0;
+  }
+  
+  .fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: all 1000ms linear;
+  }

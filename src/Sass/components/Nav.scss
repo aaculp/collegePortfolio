@@ -1,0 +1,66 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  font-size: 2rem;
+}
+
+.navLeft {
+  position: absolute;
+  top: 4vh;
+  left: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 15vw;
+  color: black;
+  font-family: 'Ewert', cursive;
+}
+
+.navRight {
+  position: absolute;
+  top: 4vh;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30vw;
+}
+
+.logoSpin {
+    animation: logoSpin 2s infinite linear;
+    -webkit-animation: logoSpin 2s infinite linear;
+}
+
+// Links
+  /* unvisited link */
+  a {
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    color: black;
+  }
+
+  /* visited link */
+
+  //  a:visited {
+
+  //  }
+
+  /* mouse over link */
+
+  a:hover {
+    // color: hotpink;
+  }
+
+  /* selected link */
+
+  //   a:active {
+  //     color: blue;
+  //   }

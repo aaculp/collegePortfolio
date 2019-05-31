@@ -1,0 +1,23 @@
+//routes
+@import 'routes/App.scss';
+@import 'routes/AHRC.scss';
+@import 'routes/D17.scss';
+@import 'routes/Home.scss';
+@import 'routes/RickMorty.scss';
+@import 'routes/Remedi.scss';
+@import 'routes/Portfolio.scss';
+
+//animations
+@import 'abstracts/animations';
+
+//variables
+
+
+//mixins
+@import 'abstracts/mixins';
+
+//components
+@import 'components/Nav';
+
+//base layout
+@import 'abstracts/base';
