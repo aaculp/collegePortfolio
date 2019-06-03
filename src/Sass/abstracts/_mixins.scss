@@ -103,4 +103,30 @@
             background: linear-gradient(to bottom, rgba(245,222,179, 1) 30%, rgb(255,255,255));
         }
     }
+    @if $page == Portfolio {
+        .Portfolio {
+            .navLeft {
+                color: blue;
+                font-family: 'Bungee Shade', cursive;
+
+                span:hover {
+                    color: red;
+                }
+            }
+            .navRight {
+                a {
+                    color: red;
+                    font-family: 'Bungee Shade', cursive;
+                }
+                a:hover {
+                    color: blue;
+                }
+            }
+        }
+        .PortfolioContainer {
+            top: 0;
+            z-index: -1;
+            background: linear-gradient(to bottom, rgba(245,222,179, 1) 30%, rgb(255,255,255));
+        }
+    }
 }

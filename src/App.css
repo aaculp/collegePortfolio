@@ -14,7 +14,7 @@
 .projectsContainer {
   position: absolute;
   top: 25%;
-  height: 100vh;
+  width: 100vw;
   animation: enter 2s linear; }
 
 .homeImage {
@@ -125,8 +125,27 @@
   font-family: 'Kaushan Script', cursive;
   text-align: center; }
 
+.Portfolio {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Bungee Shade', cursive;
+  font-weight: bold; }
+
 .PortfolioContainer {
-  color: white; }
+  position: absolute;
+  animation: enter 3s linear; }
+  .PortfolioContainer .PortfolioHeader {
+    margin-top: 50px;
+    text-align: center; }
+  .PortfolioContainer .portfolioHome {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .PortfolioContainer .portfolioHome .homeText {
+      margin-bottom: -50px;
+      font-size: 28px; }
 
 @keyframes logoSpin {
   from {

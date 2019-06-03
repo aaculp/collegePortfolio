@@ -57,7 +57,7 @@ export default function Remedi() {
           </div>
         </section>
 
-        <Link to = '/Remedi' style = {{textDecoration: 'none'}}>
+        <Link to = '/Portfolio' style = {{textDecoration: 'none'}}>
             <section className = 'footer'>
               <p style = {{marginBottom: '50px'}}>Next Project!</p>
             </section>

@@ -9,22 +9,21 @@ export default function Home() {
         <Nav/>
         
         <div className = 'projectsContainer'>
-
-        <div className = 'Remedi'>
-          <Link to = '/Remedi'>
-            <img 
-                src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543970506/Portfolio/RemediMobile.jpg' 
-                alt = 'Remedi'
-                className = 'homeImage'
-            />
-          </Link>
-          </div>
-
           <div className = 'RickMorty'>
           <Link to = '/RickAndMorty'>
             <img 
                 src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543943983/Portfolio/Run-the-Jewels-Rick-and-Morty.jpg' 
                 alt = 'Rick & Morty Space Adventures'
+                className = 'homeImage'
+            />
+          </Link>
+          </div>
+
+          <div className = 'Remedi'>
+          <Link to = '/Remedi'>
+            <img 
+                src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543970506/Portfolio/RemediMobile.jpg' 
+                alt = 'Remedi'
                 className = 'homeImage'
             />
           </Link>
