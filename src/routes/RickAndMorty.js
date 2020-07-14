@@ -48,7 +48,7 @@ export default function RickAndMorty() {
 
           <Link to = '/Remedi' style = {{textDecoration: 'none'}}>
             <section className = 'footer'>
-              <p style = {{marginBottom: '25px'}}>Next Project!</p>
+              <p>Next Project!</p>
             </section>
           </Link>
         </div>
