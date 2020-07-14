@@ -25,8 +25,8 @@ export default function RickAndMorty() {
                 alt = 'wireframes' 
                 height = '500px'
                 width = '300px'
-
             />
+            
             <div className = 'wireframesText'>
               <p style = {{marginTop: '20px'}}>This was my first project while attending General Assembly. It was a built in JavaScript using the JS DOM.</p>
               <p style = {{marginTop: '20px'}}>The idea came from the old computer game Space Invaders. I am huge Rick & Morty fan so I decided to use this as the theme. </p>
@@ -36,7 +36,7 @@ export default function RickAndMorty() {
           </section>
 
           <section>
-            <a href = 'https://aaculp.github.io/Rick-Morty-Space-Adventures/'>
+            <a style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}} href = 'https://aaculp.github.io/Rick-Morty-Space-Adventures/'>
             <video 
               src = 'https://res.cloudinary.com/aaronculp/video/upload/v1558627040/RickAndMorty.mov'
               className ='videoRick' 

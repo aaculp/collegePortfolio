@@ -27,13 +27,17 @@
 
 .RickContainer {
   position: absolute;
-  padding-left: 4rem;
-  animation: enter 3s linear; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: enter 3s linear;
+  width: 100%; }
   .RickContainer .RickHeader {
     position: absolute;
+    font-family: 'Kaushan Script', cursive;
     top: 10rem;
     font-size: 2rem;
-    font-family: 'Kaushan Script', cursive;
     animation: textEnter 2s; }
   .RickContainer .rickHeaderPic {
     margin-top: 15rem;
@@ -41,13 +45,14 @@
     width: 85vw;
     animation: pictureEnter 1.5s; }
   .RickContainer .wireframesImg {
-    margin: 10rem 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Kaushan Script', cursive; }
+    font-family: 'Kaushan Script', cursive;
+    margin: 10rem 0;
+    width: 100%; }
   .RickContainer .wireframesText {
     display: flex;
     flex-direction: column;
